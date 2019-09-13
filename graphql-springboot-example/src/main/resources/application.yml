@@ -1,0 +1,14 @@
+graphql:
+  mapping: /graphiql
+  endpoint: /graphql
+  enabled: true
+  servlet:
+    mapping: /graphql
+    enabled: true
+    corsEnabled: true
+    
+spring:
+  h2:
+    console:
+      enabled:true
+      path:/h2-console
